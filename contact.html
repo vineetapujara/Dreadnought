@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="form container">
+        <h1 class="label">User Login</h1>
+        <form class="login_form" action="index.html" name="form" method="post" >
+           <div class="font">Enter your Email</div>
+           <input autocomplete="off" type="email" name="email">
+           <div  id="email_error">Please fill the valid data.</div>
+           <div class="font font2">Password</div>
+            <input type="password" name="password">
+           <div id="pass_error">Password length should be greater than 5</div>
+            <button type="submit" class="btn"><a href="index.html">Login</a></button>
+        </form>
+       </div>
+       
+       <script src="./main.js"></script>
+</body>
+</html>
